@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "programs/babysaylor_core"
+]
+resolver = "2"
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1

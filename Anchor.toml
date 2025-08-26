@@ -1,0 +1,15 @@
+[programs.devnet]
+babysaylor_core = "6BsALfjr7No2KLioFn9fS7hwaSae28W3eh9UhcMJKHLq"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+build = "anchor build"
+
+[toolchain]
+anchor_version = "0.30.1"
